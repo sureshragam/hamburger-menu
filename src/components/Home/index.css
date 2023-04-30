@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.home {
+  height: 100%;
+  text-align: center;
+}
+.home > img {
+  margin: auto;
+  width: 80%;
+}

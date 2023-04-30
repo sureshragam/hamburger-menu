@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.about {
+  height: 100%;
+  text-align: center;
+}
+.about > img {
+  margin: auto;
+  width: 80%;
+}

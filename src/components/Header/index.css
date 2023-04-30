@@ -1,0 +1,51 @@
+/* Write your CSS here */
+nav {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  width: 50px;
+}
+.icon {
+  width: 35px;
+  height: 35px;
+}
+.trigger-button {
+  background-color: transparent;
+  border-style: none;
+}
+.popup {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  box-shadow: 1px 1px 15px 1px gray;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popup li {
+  font-size: 20px;
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.link-icon {
+  width: 40px;
+  height: 40px;
+}
+.popup > li {
+  align-self: flex-end;
+  margin-right: 30px;
+}
